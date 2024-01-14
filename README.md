@@ -30,7 +30,8 @@ Linear Support Vector Classification(linear svc):
 Linear Support Vector Classification is a robust and versatile algorithm widely applied in text classification tasks. Unlike Naive Bayes, LinearSVC does not assume feature independence and is capable of handling imbalanced datasets more effectively. In the context of text classification, where high-dimensional feature spaces are common, LinearSVC often performs well. It is computationally efficient and exhibits good generalization, making it suitable for large-scale text classification problems. LinearSVC's ability to handle irrelevant features and its robustness make it a compelling choice for tasks where feature interdependencies are crucial.
 
 Conclusion:
- LinearSVC demonstrates superior performance based on the provided classification reports. LinearSVC exhibits higher precision, recall, and F1-score across all categories, resulting in an overall accuracy of approximately 89%, compared to Naive Bayes with an accuracy of around 85%. Notably, LinearSVC outperforms Naive Bayes in handling imbalanced datasets, as evidenced by its consistently strong performance across diverse categories.
+
+LinearSVC demonstrates superior performance based on the provided classification reports. LinearSVC exhibits higher precision, recall, and F1-score across all categories, resulting in an overall accuracy of approximately 89%, compared to Naive Bayes with an accuracy of around 85%. Notably, LinearSVC outperforms Naive Bayes in handling imbalanced datasets, as evidenced by its consistently strong performance across diverse categories.
 
 
 The Dataset is available in the link - https://catalog.data.gov/dataset/consumer-complaint-database
@@ -39,12 +40,35 @@ The Classifier Code is available in the Text_Classification.ipynb file
 
 Output ScreenShots:
 
-![Screenshot (230)](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/79f79a97-07ca-4814-9a96-8bfb15a193d9)
+Text Pre-Processing:
 
-Classifier Output:
+![Screenshot (232)](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/0434b7db-ad33-4c59-b1c8-1945ebffb540)
 
-![Screenshot (231)](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/57863a0e-6f00-4ad3-a993-e149546dc5fa)
+Multinomial Naive Bayes Classifier Output:
 
-![71dcea78-a36b-422f-9ddc-27e2666a9ae7](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/b80b0225-28cf-4ce2-80e0-8d9dc256e3dc)
+![Screenshot (233)](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/86cdb888-496a-42d7-a02b-c8d6fad9a33a)
+
+![image](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/65204b2d-1cf6-4a7f-9db0-a30b19b8fa40)
+
+Predicted Category of New Complaint using Multinomial Naive Bayes Classifier:
+
+![Screenshot (234)](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/3b6c382e-ecee-481a-9584-d704275c12ec)
+
+![image](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/89ed36b6-f5fa-473b-904a-ef8154b9d27f)
+
+Linear SVC classifier Output:
+
+![Screenshot (235)](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/33004201-66fe-4983-842d-868e7d004124)
+
+![image](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/9d9a3095-15d5-4495-b295-1c0362c19739)
+
+Predicted Category of New Complaint using Linear SVC Classifier:
+
+![image](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/a6973b27-d08b-4ed5-abd8-605047cb5c67)
+
+
+
+
+
 
 
