@@ -29,3 +29,7 @@ new_complaint = ["I have an issue with my mortgage payment."]
 new_complaint_tfidf = vectorizer.transform(new_complaint)
 predicted_category = rf_classifier.predict(new_complaint_tfidf)
 print("\nPredicted Category for New Complaint:", predicted_category[0])
+
+
+The Dataset is available in the link - https://catalog.data.gov/dataset/consumer-complaint-database
+The Classifier Code is available in the Dataset.ipynb file
