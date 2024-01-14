@@ -36,9 +36,9 @@ Linear Support Vector Classification is a robust and versatile algorithm widely 
 LinearSVC demonstrates superior performance based on the provided classification reports. LinearSVC exhibits higher precision, recall, and F1-score across all categories, resulting in an overall accuracy of approximately 89%, compared to Naive Bayes with an accuracy of around 85%. Notably, LinearSVC outperforms Naive Bayes in handling imbalanced datasets, as evidenced by its consistently strong performance across diverse categories.
 
 
-The Dataset is available in the link - https://catalog.data.gov/dataset/consumer-complaint-database
+The Dataset is available in the link - " https://catalog.data.gov/dataset/consumer-complaint-database "
 
-The Classifier Code is available in the Text_Classification.ipynb file
+The Classifier Code is available in the "Text_Classification.ipynb" file
 
 # Output ScreenShots:
 
