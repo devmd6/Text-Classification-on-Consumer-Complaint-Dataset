@@ -13,11 +13,11 @@ Now , The dataset is split into training and testing sets using the train_test_s
 Vectorization of the data  - A TfidfVectorizer is used to convert text data into numerical features. The vectorizer is fit on the training set and transforms both the training and testing sets into TF-IDF features. A Multinomial Naive Bayes classifier (clf) is created and trained on the TF-IDF features of the training set.
 
 
-Now for evaluating the model , The script predicts categories for the testing set and evaluates the model's performance using classification metrics such as precision, recall, and accuracy.
+Now for evaluating the models , The script predicts categories for the testing set and evaluates the model's performance using classification metrics such as precision, recall, and accuracy.
 The classification report, accuracy, and confusion matrix are printed to assess the model's effectiveness.
 
 
-New Complaint Prediction - A new consumer complaint is created as an example. The TfidfVectorizer is used to transform the new complaint, and the Multinomial Naive Bayes classifier predicts its category. The predicted category is printed.
+New Complaint Prediction - A new consumer complaint is created as an example. The TfidfVectorizer is used to transform the new complaint, and the Multinomial Naive Bayes classifier and Linear SVC Classifier predicts its category. The predicted category is printed.
 
 Two Methods:
 
