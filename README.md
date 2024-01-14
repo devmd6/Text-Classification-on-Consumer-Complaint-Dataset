@@ -3,7 +3,7 @@
 
 # This repository contains Python code for text classification of consumer complaints into predefined categories. The classification is based on the product mentioned in the complaint. The primary purpose is to categorize consumer complaints into four main categories: Credit reporting, repair, or other; Debt collection; Consumer Loan; and Mortgage.
 
-We utilize Python and the pandas library for data manipulation and analysis and scikit-learn for machine learning tasks, specifically for text classification using the Multinomial Naive Bayes algorithm and Random forest Algorithm . Also Evaluate and Compare their Performance.
+We utilize Python and the pandas library for data manipulation and analysis and scikit-learn for machine learning tasks, specifically for text classification using the Multinomial Naive Bayes algorithm and Linear Support Vector Classification Algorithm . Also Evaluate and Compare their Performance.
 We Start of by extracting unique product categories from the 'Product' column and print them.
 For Data Preprocessing , A new column 'Category' is created based on keywords in the 'Product' column. This helps in grouping similar complaints.
 Rows with missing values in the 'Category' and 'Consumer complaint narrative' columns are dropped and Missing values in the 'Consumer complaint narrative' column are filled with empty strings.
