@@ -33,7 +33,7 @@ print("\nPredicted Category for New Complaint:", predicted_category[0])
 
 The Dataset is available in the link - https://catalog.data.gov/dataset/consumer-complaint-database
 
-The Classifier Code is available in the Dataset.ipynb file
+The Classifier Code is available in the Text_Classification.ipynb file
 
 Output ScreenShots:
 
