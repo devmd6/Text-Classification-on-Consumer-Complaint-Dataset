@@ -41,5 +41,8 @@ Output ScreenShots:
 
 Classifier Output:
 
+![Screenshot (231)](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/57863a0e-6f00-4ad3-a993-e149546dc5fa)
+
 ![71dcea78-a36b-422f-9ddc-27e2666a9ae7](https://github.com/devmd6/Text-Classification-on-Consumer-Complaint-Dataset/assets/85011993/b80b0225-28cf-4ce2-80e0-8d9dc256e3dc)
+
 
