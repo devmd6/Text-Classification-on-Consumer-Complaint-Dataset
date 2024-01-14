@@ -1,5 +1,8 @@
 # Text-Classification-on-Consumer-Complaint-Dataset
 
+
+# This repository contains Python code for text classification of consumer complaints into predefined categories. The classification is based on the product mentioned in the complaint. The primary purpose is to categorize consumer complaints into four main categories: Credit reporting, repair, or other; Debt collection; Consumer Loan; and Mortgage.
+
 We utilize Python and the pandas library for data manipulation and analysis and scikit-learn for machine learning tasks, specifically for text classification using the Multinomial Naive Bayes algorithm and Random forest Algorithm . Also Evaluate and Compare their Performance.
 We Start of by extracting unique product categories from the 'Product' column and print them.
 For Data Preprocessing , A new column 'Category' is created based on keywords in the 'Product' column. This helps in grouping similar complaints.
@@ -18,17 +21,16 @@ New Complaint Prediction - A new consumer complaint is created as an example. Th
 
 Two Methods:
 
-naive bayes :
-new_complaint = ["I have an issue with my mortgage payment."]
-new_complaint_tfidf = vectorizer.transform(new_complaint)
-predicted_category = clf.predict(new_complaint_tfidf)
-print("\nPredicted Category for New Complaint:", predicted_category[0])
+Naive Bayes :
 
-Random forest:
-new_complaint = ["I have an issue with my mortgage payment."]
-new_complaint_tfidf = vectorizer.transform(new_complaint)
-predicted_category = rf_classifier.predict(new_complaint_tfidf)
-print("\nPredicted Category for New Complaint:", predicted_category[0])
+Naive Bayes is a probabilistic classification algorithm that relies on the assumption of independence between features. In text classification tasks, it has been widely used due to its simplicity, efficiency, and ease of interpretation. Naive Bayes works well when the independence assumption holds, making it particularly suited for applications like spam detection and sentiment analysis. However, it may struggle with imbalanced datasets and is sensitive to irrelevant features, limiting its effectiveness in certain scenarios.
+
+Linear Support Vector Classification(linear svc):
+
+Linear Support Vector Classification is a robust and versatile algorithm widely applied in text classification tasks. Unlike Naive Bayes, LinearSVC does not assume feature independence and is capable of handling imbalanced datasets more effectively. In the context of text classification, where high-dimensional feature spaces are common, LinearSVC often performs well. It is computationally efficient and exhibits good generalization, making it suitable for large-scale text classification problems. LinearSVC's ability to handle irrelevant features and its robustness make it a compelling choice for tasks where feature interdependencies are crucial.
+
+Conclusion:
+ LinearSVC demonstrates superior performance based on the provided classification reports. LinearSVC exhibits higher precision, recall, and F1-score across all categories, resulting in an overall accuracy of approximately 89%, compared to Naive Bayes with an accuracy of around 85%. Notably, LinearSVC outperforms Naive Bayes in handling imbalanced datasets, as evidenced by its consistently strong performance across diverse categories.
 
 
 The Dataset is available in the link - https://catalog.data.gov/dataset/consumer-complaint-database
